@@ -1,0 +1,124 @@
+*{
+  padding: 20px;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main{
+  background-color: rgb(29, 28, 28);
+}
+.go {
+  background-color: black;
+  padding: 30px;
+  border-radius: 14px;
+  
+  max-width: 3000px;
+  width: 100% ;
+  height: 700px;
+  margin: auto;
+
+
+}
+.me{
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 90px;
+  padding: 1px;
+  color: beige;
+}
+.you{
+  text-align: left;
+  margin-bottom: 5px;
+  padding: 1px;
+  color: beige;
+
+}
+.go .form-group input:focus,
+.go .form-groupb input:focus,
+.go .form-group textarea:focus,
+.go .form-groupb textarea:focus{
+  cursor: pointer;
+  color: antiquewhite;
+  transform: all 0.4s ease;
+}
+p{
+  text-align: left;
+  color: beige;
+  margin-bottom: 5px;
+  margin-left: -14px;
+  
+}
+.go button{
+  width: 10%;
+  background: rgb(117, 157, 252);
+  border: none;
+  color: black;
+  border-radius: 30px;
+  font-size: 18px;
+  margin-left: 1100px;
+  margin-top: -60px;
+  position: static;
+  
+}
+.form-group {
+  position:relative;
+  margin-left: 600px;
+  margin-top: -180px;
+  background-color: black;
+
+}
+.form-groupb {
+  position:relative;
+  margin-left: 600px;
+  margin-top: -20px;
+  background-color: black;
+
+}
+.go .form-group input,
+.go .form-groupb input{
+  width: 400px;
+}
+.go .form-group input:focus{
+
+}
+.go .form-group label,
+.go .form-groupb label{
+  position: relative;
+  color: aliceblue;
+  top: -25px;
+  left: 10px;
+  transform: all 0.4s ease;
+}
+.pic {
+  height: 100px;
+  padding:20px;
+  padding-left: 5px;
+}
+.go .form-group input:focus + label,
+.go .form-groupb input:focus + label,
+.go .form-group input:not(:placeholder-shown) + label
+.go .form-groupb input:not(:placeholder-shown) + label{
+  top: -90px;
+  left: 0;
+}
+
+input[type="text"]{
+  background: black !important;
+  border-radius: 6px;
+}
+.go .form-dropdown{
+  background: black;
+  color: white;
+  margin-left: -50px;
+  width: 8px;
+  
+  ;
+   
+
+}
+#subject{
+  background: black;
+  color: beige;
+  border: none;
+
+}
+
